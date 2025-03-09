@@ -1,10 +1,10 @@
-# 🚀 GitLite - A Lightweight Version Control System  
+# GitLite - A Lightweight Version Control System  
 
 GitLite is a simplified yet powerful version control system designed to efficiently handle file versioning using tree structures. Unlike traditional methods, GitLite minimizes data redundancy, optimizes performance for large files, and ensures data integrity through cryptographic hashing.  
 
 ---
 
-## 🔥 Features  
+##  Features  
 ✔️ **Initialize Repository**: Choose between AVL Tree, B-Tree, or Red-Black Tree for organizing CSV data.  
 ✔️ **Commit Changes**: Save versions with meaningful messages.  
 ✔️ **Branching & Checkout**: Work on different versions independently.  
@@ -48,7 +48,7 @@ Example:
 Input the name of the file with extension: data.csv
 Enter Repository Name: my_project
 ```
-### 🌿 Branch Management
+###  Branch Management
 ```bash
 > branch <branch_name>
 Description: Creates a new branch from the current repository state.
@@ -86,7 +86,7 @@ Description: Deletes the specified repository.
 Example:
 > delete my_project
 ```
-### 🔥 Committing & Logging
+###  Committing & Logging
 ```bash
 > commit
 Description: Further provides you with options to add, edit or delete data and saves the current changes in the repository.
@@ -152,5 +152,5 @@ How We Implemented GitLite
 
 ### File Storage:
 - Instead of loading the entire tree into memory, each node is stored in a separate file, optimizing performance for large datasets.
-###  Credits 🤝
+##  Credits 🤝
 This project was developed by **Muhammad Kaleem Akhtar**, **Obaidullah Shoaib**, and **Fatik Bin Imran** as part of the Data Structures course. Special thanks to our professor and mentor for their guidance and support.
